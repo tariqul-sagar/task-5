@@ -1,0 +1,306 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*  W3School File CSS  */
+.header-1{
+	font-size: 30px;
+	padding: 10px;
+	text-align: center;
+	background-color: #000000;
+	color: #ffffff;	
+}
+
+/*  Table CSS  */
+table{
+	width: 100%;
+	border: none;
+}
+thead{
+	width: 100%;
+}
+th{
+	font-size: 28px;
+	width: 50%;
+	padding: 8px 0;
+	color: #ffffff;
+	background-color: #2ad12a;
+}
+td h3{
+	font-size: 24px;
+	width: 90%;
+	text-align: center;
+	padding: 8px 0;
+	margin: 12px auto;
+	color: #ffffff;
+	background-color: #000000;
+}
+td p{
+	font-size: 20px;
+	padding: 5px 10px;
+}
+/*  HTML Reference  */
+.anchor{
+	text-align: center;
+}
+.anchor a{
+	font-size: 20px;
+	text-decoration: none;
+}
+.abbr{
+	font-size: 20px;
+	padding: 0 10px;
+}
+address{
+	font-size: 20px;
+	padding: 0 10px;
+}
+aside h4{
+	font-size: 22px;
+	padding: 0 10px;
+}
+.audio{
+	text-align: center;
+}
+audio{
+	font-size: 20px;
+}
+
+/*  Base CSS  */
+.aplane{
+	width: 50px;
+	height: 40px;
+}
+
+/*  Basefont CSS  */
+.basefont{
+	color: #21e3d4;
+}
+
+td ul li{
+	font-size: 20px;
+	padding: 0 10px;
+}
+.para-1{
+	font-size: 35px;
+}
+.para-2{
+	font-size: 50px;
+}
+blockquote{
+	font-size: 20px;
+	padding: 0 10px;
+}
+.button{
+	text-align: center;
+}
+.btn{
+	font-size: 18px;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+.cite-img{
+	width: 80px;
+	height: 100px;
+	padding: 0 10px;
+}
+.form{
+	width: 432px;
+	margin: 0 auto 25px;
+	border: 2px solid #dadde1;
+	border-radius: 8px;
+	background-color: #ffffff;
+}
+.form h2{
+	font-size: 32px;
+	padding: 7px 10px;
+	line-height: 38px;
+	margin-bottom: 0;
+	border: none;
+	color: #000000;
+}
+.form .form-p{
+	font-size: 16px;
+	padding: 0 10px 8px;
+	color: #000000;
+}
+.line{
+	height: 1px;
+	background-color: #dadde1;
+}
+.form-input{
+	font-size: 15px;
+    width: 178px;
+    line-height: 16px;
+    padding: 11px;
+    margin: 12px -10px;
+    background-color: #f1f1f1;
+    border: 2px solid #ccd0d5;
+    border-radius: 5px;
+}
+.form-email,.date{
+	font-size: 15px;
+    width: 387px;
+    line-height: 16px;
+    padding: 11px;
+    margin: 0 9px;
+    background-color: #f1f1f1;
+    border: 2px solid #ccd0d5;
+    border-radius: 5px;
+}
+.password{
+	font-size: 15px;
+    width: 387px;
+    line-height: 16px;
+    padding: 11px;
+    margin: 12px 9px -5px;
+    background-color: #f1f1f1;
+    border: 2px solid #ccd0d5;
+    border-radius: 5px;
+}
+.label{
+	font-size: 12px;
+    font-weight: normal;
+    line-height: 35px;
+    margin-bottom: 0;
+    margin-top: 2px;
+    padding: 12px;
+	color: #606770;
+}
+.gender{
+	width: auto;
+	height: 36px;
+	margin: 5px;
+	padding: 5px 20px;
+	display: inline;
+	border: 2px solid #ccd0d5;
+	border-radius: 5px;
+	box-sizing: border-box;
+	background-color: #f1f1f1;
+}
+.g-class{
+	font-size: 18px;
+	margin: 10px 12px;
+}
+.g-box{
+	font-size: 16px;
+    padding: 0 5px;
+}
+.p-link{
+	font-size: 14px;
+	margin: 8px 0;
+	padding: 0 10px;
+	color: #777777;
+}
+.p-link a{
+	text-decoration: none;
+}
+.form-btn{
+	text-align: center;
+	margin: 5px 0 12px;
+}
+.btn-submit{
+	font-size: 18px;
+    font-weight: 700;
+    padding: 7px 34px;
+    color: #ffffff;
+    background-color: #00a400;
+    border: 2px solid #00a400;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.btn-submit:hover{
+	background: linear-gradient(#79bc64, #578843);
+	cursor: pointer;
+}
+.i-one{
+	display: inline;
+}
+.i-two{
+	display: inline;
+}
+.if-one{
+	width: 49.5%;
+	height: 375px;
+}
+
+
+/*  
+ 	CSS Reference 
+Accent color  */
+label{
+	font-size: 18px;
+	padding: 0 10px;
+}
+input[type=checkbox] {
+	margin: 0 10px;
+	accent-color: #2c94ed;
+}
+input[type=radio] {
+	margin: 0 10px;
+	accent-color: #2c94ed;
+}
+input[type=range] {
+	margin: 0 10px;
+	accent-color: rgb(0,0,255);	
+}
+progress{
+	accent-color: hsl(163,45%,41%);
+}
+
+/* Alignment CSS */
+.alg{
+	padding: 8px 0;
+	border: 2px solid #000000;
+}
+.left{
+	text-align: left;
+}
+.center{
+	text-align: center;
+}
+.right{
+	text-align: right;
+}
+/*  Align Item  */
+.main{
+	width: 99.88%;
+	height: 300px;
+	border: 2px solid #000000;
+	display: flex;
+	text-align: center;
+}
+.main div{
+	font-size: 20px;
+	flex: 1;
+	border: 2px solid #000000;
+	display: flex;
+	align-items: center;
+}
+.one{
+	height: 50px;
+	background-color: lightblue;
+}
+.two{
+	height: 120px;
+	background-color: cyan;
+}
+.three{
+	height: 200px;
+	background-color: grey;
+}
+/*  Animation CSS  */
+.animation{
+	width: 220px;
+	height: 200px;
+	position: relative;
+	animation: move 8s infinite;
+}
+.animation img{
+	width: 100%;
+}
+@keyframes move{
+	from {left: 0%;}
+	to {left: 83.8%;}
+}
